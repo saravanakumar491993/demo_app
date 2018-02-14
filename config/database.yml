@@ -22,8 +22,8 @@ test:
 
 production:
   <<: *default
-  database: d126hid6lguhpj
-  username: wlycphlvtpjrrp
-  password: 26aebf3194e5b82e8286d7c93500a97073c8a45bcf689985b4310aa924f3d2a2
-  host: ec2-176-34-111-152.eu-west-1.compute.amazonaws.com
+  database: de3un2tbsf3ss6
+  username: xtesslembnldjk
+  password: c8280a6061a0531543d56f1b76f3e91c7df2162b3db5ac1ef97462e961219cf6
+  host: ec2-54-247-95-125.eu-west-1.compute.amazonaws.com
   port: 5432
