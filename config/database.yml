@@ -22,4 +22,8 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: d126hid6lguhpj
+  username: wlycphlvtpjrrp
+  password: 26aebf3194e5b82e8286d7c93500a97073c8a45bcf689985b4310aa924f3d2a2
+  host: ec2-176-34-111-152.eu-west-1.compute.amazonaws.com
+  port: 5432
