@@ -6,8 +6,8 @@
 </p>
 
 <p>
-  <strong>Age:</strong>
-  <%= @contact.age %>
+  <strong>Gender:</strong>
+  <%= @contact.gender %>
 </p>
 
 <p>
@@ -18,6 +18,11 @@
 <p>
   <strong>Address:</strong>
   <%= @contact.address %>
+</p>
+
+<p>
+  <strong>Pic url:</strong>
+  <%= @contact.pic_url %>
 </p>
 
 <%= link_to 'Edit', edit_contact_path(@contact) %> |

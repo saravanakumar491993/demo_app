@@ -17,8 +17,8 @@
   </div>
 
   <div class="field">
-    <%= form.label :age %>
-    <%= form.number_field :age, id: :contact_age %>
+    <%= form.label :gender %>
+    <%= form.text_field :gender, id: :contact_gender %>
   </div>
 
   <div class="field">
@@ -28,7 +28,12 @@
 
   <div class="field">
     <%= form.label :address %>
-    <%= form.text_area :address, id: :contact_address %>
+    <%= form.text_field :address, id: :contact_address %>
+  </div>
+
+  <div class="field">
+    <%= form.label :pic_url %>
+    <%= form.text_field :pic_url, id: :contact_pic_url %>
   </div>
 
   <div class="actions">
